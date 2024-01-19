@@ -1,0 +1,26 @@
+\contentsline {chapter}{\numberline {1}Abstract}{2}{}%
+\contentsline {chapter}{\numberline {2}Introduction}{3}{}%
+\contentsline {section}{\numberline {2.1}Overview of VR Motion Perception Experiments}{3}{}%
+\contentsline {section}{\numberline {2.2}Significance of Studying Motion Perception in VR}{3}{}%
+\contentsline {section}{\numberline {2.3}My Role as a Research Assistant}{3}{}%
+\contentsline {chapter}{\numberline {3}Background}{4}{}%
+\contentsline {section}{\numberline {3.1}Historical Context of VR in Motion Experiments}{4}{}%
+\contentsline {section}{\numberline {3.2}Previous Studies on Motion Perception in VR}{4}{}%
+\contentsline {chapter}{\numberline {4}Theoretical Framework}{5}{}%
+\contentsline {section}{\numberline {4.1}Existing Information on Motion Perception in VR}{5}{}%
+\contentsline {section}{\numberline {4.2}Relevence of Simultaneous Motion Studies}{5}{}%
+\contentsline {section}{\numberline {4.3}Human Perception in VR Environements}{5}{}%
+\contentsline {chapter}{\numberline {5}Methodology}{6}{}%
+\contentsline {section}{\numberline {5.1}Instruments and Equipment Used}{6}{}%
+\contentsline {section}{\numberline {5.2}Variables and Controls}{6}{}%
+\contentsline {section}{\numberline {5.3}Detailed Steps of the Experiment}{6}{}%
+\contentsline {chapter}{\numberline {6}Discussion}{7}{}%
+\contentsline {section}{\numberline {6.1}Implications for VR Design and Development}{7}{}%
+\contentsline {section}{\numberline {6.2}Interpretation of Comparative Results}{7}{}%
+\contentsline {section}{\numberline {6.3}Integration with Exisiting Technology}{7}{}%
+\contentsline {chapter}{\numberline {7}Conclusion}{8}{}%
+\contentsline {section}{\numberline {7.1}Limitations of the Study}{8}{}%
+\contentsline {section}{\numberline {7.2}Summary of Key Findings}{8}{}%
+\contentsline {chapter}{\numberline {8}Appendix}{9}{}%
+\contentsline {section}{\numberline {8.1}Supplementary Materials}{9}{}%
+\contentsline {section}{\numberline {8.2}References}{9}{}%

@@ -1,0 +1,123 @@
+\documentclass[a4paper, 11pt, oneside]{book}
+
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc} 
+\usepackage{fouriernc} 
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{tocloft}
+
+% Configure page style to be "fancy"
+\fancyhf{}
+\pagestyle{fancy}
+
+% Make the header fill the page width
+\addtolength{\headwidth}{\marginparsep}
+\addtolength{\headwidth}{\marginparwidth}
+
+% Set the footer and header widths to be the same
+\renewcommand{\footrulewidth}{1pt}
+\renewcommand{\headrulewidth}{1pt}
+
+\fancyhead[R]{Stan \thepage}
+\fancyhead[L]{\slshape \leftmark}
+
+% Center the heading for the ToC
+\renewcommand{\cfttoctitlefont}{\hfill\huge\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+
+% Set the name of the table of contents
+\renewcommand{\contentsname}{Table of Contents}
+
+\begin{document} 
+
+    \begin{titlepage} 
+
+        \centering 
+        
+        \scshape 
+        
+        \vspace*{\baselineskip} 
+        
+        %------------------------------------------------
+        %	Title
+        %------------------------------------------------
+        
+        \rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt} % Thick horizontal rule
+        \rule{\textwidth}{0.4pt} % Thin horizontal rule
+        
+        \vspace{0.75\baselineskip} 
+        
+        {\LARGE HUMAN MOTION PERCEPTION \\ IN VIRTUAL REALITY AND THE REAL-WORLD} 
+        
+        \vspace{0.75\baselineskip} 
+        
+        \rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt} 
+        \rule{\textwidth}{1.6pt} 
+        
+        \vspace{2\baselineskip}
+        
+        %------------------------------------------------
+        %	Subtitle
+        %------------------------------------------------
+        
+        Comparing Human Motion Perception in Virtual Reality 
+        and Real-World Simultaneous Motion
+        
+        \vspace*{3\baselineskip}
+        
+        \vspace{0.5\baselineskip} 
+        
+        {\scshape\Large Alexandru Stan } 
+        
+        \vspace{0.5\baselineskip} 
+        
+        \textit{The University of Waterloo} 
+        
+        \vfill 
+
+        SUPERVISED BY DR. WANG\\
+        2024 % Publication year
+
+    \end{titlepage}
+
+    \setlength{\parskip}{2ex}
+    \tableofcontents
+    \clearpage
+
+    \chapter{Abstract}
+        PLACEHOLDER!!
+
+    \chapter{Introduction}
+        \section{Overview of VR Motion Perception Experiments}
+        \section{Significance of Studying Motion Perception in VR}
+        \section{My Role as a Research Assistant}
+    
+    \chapter{Background}
+        \section{Historical Context of VR in Motion Experiments}
+        \section{Previous Studies on Motion Perception in VR}
+    
+    \chapter{Theoretical Framework}
+        \section{Existing Information on Motion Perception in VR}
+        \section{Relevence of Simultaneous Motion Studies}
+        \section{Human Perception in VR Environements}
+
+    \chapter{Methodology}
+        \section{Instruments and Equipment Used}
+        \section{Variables and Controls}
+        \section{Detailed Steps of the Experiment}
+
+    \chapter{Discussion}
+        \section{Implications for VR Design and Development}
+        \section{Interpretation of Comparative Results}
+        \section{Integration with Exisiting Technology}
+    
+    \chapter{Conclusion}
+        \section{Limitations of the Study}
+        \section{Summary of Key Findings}
+
+    \chapter{Appendix}
+        \section{Supplementary Materials}
+        \section{References}
+
+\end{document}
