@@ -1,4 +1,6 @@
-\documentclass[a4paper, 11pt, oneside]{book}
+
+% !BIB TS-program = biber
+\documentclass[a4paper, 12pt, oneside]{article}
 
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc} 
@@ -20,7 +22,6 @@
 \renewcommand{\headrulewidth}{1pt}
 
 \fancyhead[R]{Stan \thepage}
-\fancyhead[L]{\slshape \leftmark}
 
 % Center the heading for the ToC
 \renewcommand{\cfttoctitlefont}{\hfill\huge\bfseries}
@@ -85,39 +86,220 @@
     \tableofcontents
     \clearpage
 
-    \chapter{Abstract}
-        PLACEHOLDER!!
-
-    \chapter{Introduction}
-        \section{Overview of VR Motion Perception Experiments}
-        \section{Significance of Studying Motion Perception in VR}
-        \section{My Role as a Research Assistant}
+    \section{Abstract}
     
-    \chapter{Background}
-        \section{Historical Context of VR in Motion Experiments}
-        \section{Previous Studies on Motion Perception in VR}
+        This study delves into the nuanced realm of the Just Noticable Difference (JND) in 
+        human motion perception, specifically examining the distinctions betwen physical reality 
+        and virtual reality (VR) environements. Employing a HP Reverb G2 VR headset coupled with a 
+        custom-designed go-kart featuring a swerve drivebase and bespoke components. 
+        \newline
+
+        The core 
+        objective was to discern the treshold at which participants could reliably perceive variances
+        in motion between the real-world and the immersive VR setting, with the virtual speed and environements
+        held as constants throughout the experiment. Participants underwent a diverse range of experiences, traversing through a spectrum of physcal 
+        accelerations -- both incremental and decremental -- while seamlessly navigating a linear trajectory 
+        within the virtual environement, courtesy of the go-kart. The experiment sought to unravel the intricacies
+        of human perception, pinpointing the point at which individuals could conciously detect dispartities in motion
+        between reality and VR. 
+        \newline
+
+        The results of the study unveil a sophisticated comprehension of the Just Noticable Difference (JND), shedding 
+        illuminating inisights on the acuity of individuals in ditinguishing subtle variations in motion between the 
+        tangible and virtual. This explorations into the interplaty of sensory cues not only advances the understanding of 
+        human perception, but also has profound implications for the future of VR design and development. 
+        In conclusion, this research contributes valuable knowledge to the evolving landscape of immersive technologies, 
+        offering a deeper understanding of how individuals perceive and interact with motion is both real-world 
+        and virtual scenarios. As the boundaris between the physical and virtual continue to blur, this results of 
+        this study pave the way for future research and a better understanding on the human experience in this changing world. 
+        \clearpage
+
+    \section{Introduction}
+        \subsection{Overview of VR Motion Perception Experiments}
+
+            Currenly, Virtual Reality (VR) motion experiments the prevailing focus
+            lies in post-VR session perception effects rather than the concurrent
+            assessments of the motion perception in both real-life and virtual environements.
+            Traditional studies delve into the intricacies of perception after a VR experience,
+            often exploring the impact of cognitive mechanisms, such as in \textbf{The effects of virtual 
+            reality, augmented reality, and motion parallax on egocentric depth perception} where 
+            they is it observed that \"participants view the virtual world as compressed relative to the 
+            the real world\" [Jones et al., 2008].
+
+            The research emphasizes the role of top-down factors, such as the cognitive interpretation of the virtual environment, 
+            in influencing motion perception. Naturalistic and coherent settings, like those depicting a 3D scene, are found to 
+            enhance the believability of visual stimuli, contributing to more effective vection induction. This implies that the 
+            visual stimulus's effectiveness in conveying self-motion is intricately tied to the perceived realism and ecological
+             relevance of the virtual environment.
+
+            Conversely, the underrealized potential of VR in the built environment sector points to a gap in understanding the 
+            complex interaction between environmental design and users. While VR is widely used for design intent and construction 
+            methodologies, there is a concern that its current utilization predominantly focuses on the visual modality, neglecting 
+            the multi-sensory nature of spatial experiences. The need to address human perception issues in VR models for effective 
+            communication in the built environment is underscored.
+
+            Additionally, the evolving landscape of virtual and augmented reality applications demands a comprehensive understanding 
+            of how observers perceive spatial relationships. Notably, the traditional emphasis on measuring egocentric depth 
+            perception in VR has revealed systematic underestimations, suggesting a compression of virtual space relative to the 
+            real world. Surprisingly, however, these effects may not be as pronounced in augmented reality. 
+
+
+        \subsection{Significance of Studying Motion Perception in VR}
+
+        Studying motion perception in Virtual Reality (VR) carries profound significance, with implications extending beyond 
+        the confines of individual experiences to transformative shifts in our understanding of the built environment and the 
+        intricacies of human cognition. Building upon existing research, which predominantly delves into post-VR session effects
+         and cognitive mechanisms influencing motion perception, a comprehensive exploration of real-time motion perception in 
+         both real-life and virtual environments becomes crucial.
+
+        One notable significance lies in democratizing experiences that were previously constrained by cost and safety concerns. 
+        For instance, VR facilitates the creation of immersive racetrack simulations, allowing individuals to virtually experience 
+        high-speed racing without the logistical challenges or risks associated with real tracks. This democratization of 
+        experiences can extend to various domains, offering people the opportunity to engage with environments and activities 
+        that might be impractical, inaccessible, or hazardous in reality.
+        
+        Moreover, understanding motion perception in VR contributes to a deeper comprehension of the human mind's adaptability and 
+        response to differences in movement. By closely studying how individuals perceive and navigate motion in real-time VR 
+        scenarios, researchers gain insights into the intricacies of spatial cognition and sensory integration. This knowledge not 
+        only aids in refining VR applications for optimal user experience but also sheds light on the human mind's ability to 
+        reconcile disparities between virtual and physical stimuli.
+        
+        In the context of the built environment, where VR is increasingly utilized for conveying design intent and construction 
+        methodologies, a nuanced understanding of motion perception allows for more effective communication tools. Beyond visual
+         representations, incorporating realistic motion experiences enhances the authenticity of virtual environments. This not 
+         only benefits professionals in architecture, construction, and design but also broadens the scope of VR applications in 
+         areas where spatial understanding is pivotal.
+
+        \subsection{My Role as a Research Assistant}
+
+        As a research assistant, my primary responsibility centered around the creation of a dynamic and immersive virtual 
+        environment tailored for the experimental needs of our study. Leveraging my skills in software development and 3D modeling, 
+        I utilized Unity and Blender to craft a realistic and engaging digital space that served as the backdrop for participants 
+        during the research experiment.
+
+        In the initial stages, my role involved the meticulous design of 3D models representing various elements such as roads, 
+        houses, cars, and other relevant features integral to the study. Employing Blender, I sculpted detailed and accurate 
+        representations of these components to ensure an authentic virtual environment.
+
+        Subsequently, I transitioned to Unity, where I orchestrated the integration of these 3D models into a cohesive virtual scene.
+        This involved the creation of a custom terrain to mimic mountainous landscapes, providing participants with a seamless and 
+        immersive experience. My role extended beyond mere placement, as I carefully considered the spatial relationships between 
+        different elements to optimize the feel of the virtual environment.
+        \clearpage
+
+    \section{Methodology}
+        \subsection{Instruments and Equipment Used}
     
-    \chapter{Theoretical Framework}
-        \section{Existing Information on Motion Perception in VR}
-        \section{Relevence of Simultaneous Motion Studies}
-        \section{Human Perception in VR Environements}
+        Participants in the experiment were seated in a custom go-kart made with unique parts and a swerve drivebase, offering precise 
+        control over movements. This setup aimed to provide an authentic experience of motion in both real and virtual settings. The 
+        swerve drivebase allowed for responsive interactions during the experiment.
 
-    \chapter{Methodology}
-        \section{Instruments and Equipment Used}
-        \section{Variables and Controls}
-        \section{Detailed Steps of the Experiment}
+        The virtual experience was facilitated using the HP Reverb G2 Virtual Reality headset, known for its display resolution of 
+        2160x2160 pixels. This VR headset delivered a clear and immersive experience, enhancing the realism of the virtual environment. 
+        Its features contributed to the overall experiment by seamlessly integrating physical and virtual sensations.
 
-    \chapter{Discussion}
-        \section{Implications for VR Design and Development}
-        \section{Interpretation of Comparative Results}
-        \section{Integration with Exisiting Technology}
+        All testing occurred in a spacious facility in Glasgow, ensuring a safe environment for go-kart maneuvering and participant 
+        engagement with the virtual setting. This setting allowed for a straightforward exploration of motion perception, providing 
+        valuable insights into human-machine interaction.
+
+        \subsection{Variables and Controls}
+        
+        In this experimental study, the primary independent variables are the levels of physical acceleration applied to the custom 
+        go-kart and the variations in the virtual environment presented through the HP Reverb G2 VR headset. These variables are 
+        crucial for exploring how participants perceive motion in both the physical and virtual realms. By systematically 
+        manipulating acceleration levels, researchers aim to understand the thresholds at which participants can discern differences 
+        in motion, while variations in the virtual environment allow for the investigation of the impact of visual stimuli on motion 
+        perception.
+
+        To ensure the reliability and validity of the study, several controls are implemented. Baseline measurements are conducted 
+        before the experiment to account for individual differences among participants. Consistency in VR hardware, specifically 
+        the use of the HP Reverb G2 headset, is maintained across all participants to eliminate potential variations in the virtual 
+        experience. The uniform configuration of the custom go-kart serves as another control, ensuring that the physical setup 
+        remains consistent for all participants. The testing environment itself, a spacious facility in Glasgow, is controlled to 
+        minimize external influences and provide a standardized setting for participants.
+
+        Throughout the study, ethical considerations remain a paramount control. Informed consent is a must, 
+        and their safety is prioritized, particularly given the physical nature of the custom go-kart. By carefully manipulating 
+        independent variables and implementing controls, this research aims to provide valuable insights into the complex interplay 
+        between physical and virtual motion perception, contributing to the broader understanding of human experiences in immersive 
+        environments.
+
+        \subsection{Virtual Environement Design}
+
+        The virtual design in this study has a practical role in helping participants gauge their speed while using the custom 
+        go-kart. It includes recognizable features like roads, houses, and cars strategically placed within the virtual environment. 
+        These act as reference points, making it easier for participants to perceive their speed as they navigate in the go-kart.
+
+        The design is intentionally kept low-poly, using simplified geometric shapes. This choice ensures efficient processing, 
+        contributing to a smooth and responsive experience – a crucial aspect for the entertainment-focused race simulator the 
+        company aims to develop. The simplified visual style aligns with popular racing games, meeting the company's vision for an 
+        accessible and enjoyable entertainment platform.
+
+        In summary, the virtual design not only aids participants in the experiment by providing reference points for speed 
+        perception but also fits the practical needs of the company looking to use it in a race simulator. The simplicity of the 
+        design contributes to efficient graphics rendering, ensuring a seamless and engaging experience for users.
+        
+
+    \section{Discussion}
+        \subsection{Implications for VR Design and Development}
+        This study carries significant implications for the design and development of Virtual Reality (VR) experiences, offering 
+        valuable insights that can shape the trajectory of the industry. The emphasis on incorporating clear points of reference 
+        within the virtual environment to enhance speed perception underscores the importance of creating realistic and relatable 
+        elements. VR designers can leverage this understanding to prioritize the inclusion of recognizable features, fostering a 
+        heightened sense of realism and immersion in diverse virtual scenarios. This focus on enhancing user perception opens 
+        avenues for more engaging and authentic VR experiences, transcending traditional boundaries.
+
+        The study also sheds light on the importance of multi-sensory integration in VR design. 
+        Understanding how participants perceive motion in both physical and virtual realms suggests that future developments can 
+        explore ways to enhance user experiences by incorporating additional sensory cues. Haptic feedback, spatial audio, and 
+        other immersive elements can be integrated to create a more comprehensive and engaging virtual environment, elevating the 
+        overall user experience and expanding the possibilities of VR applications.
+
+        The study's connection to a company interested in utilizing the virtual environment for entertainment purposes, particularly 
+        in a race simulator, emphasizes the adaptability of VR technology across industries. VR developers can take inspiration from 
+        this study to tailor their designs for entertainment applications, ensuring accessibility and enjoyment for a diverse user 
+        base. This adaptability opens doors to innovative uses of VR beyond gaming, ranging from training simulations to educational 
+        experiences and beyond.
+
+        Furthermore, the insights gained from this study contribute to a deeper understanding of human-machine interaction, 
+        particularly in scenarios involving motion perception. VR developers can leverage this understanding to refine applications 
+        where user movements are a key element, such as driving simulations or virtual sports. By incorporating these implications 
+        into future VR projects, designers and developers can collectively contribute to the evolution of VR technology, creating 
+        more engaging, accessible, and versatile virtual experiences for users across various domains.
+
+        \subsection{Integration with Exisiting Technology}
+
+        The integration of the study's findings into existing technology holds promising opportunities across various domains. In the realm of entertainment and gaming, the low-poly design approach, aimed at efficient rendering and responsiveness, can be seamlessly incorporated into VR racing simulators. This integration enhances the realism and overall user experience, 
+        providing racing enthusiasts with a more immersive and enjoyable virtual environment. Game developers can leverage these insights
+        to refine existing racing games or create new ones that prioritize both visual fidelity and optimal processing, meeting the 
+        demands of an evolving gaming landscape.
+
+        Beyond entertainment, the study's implications have practical applications in training simulations. The insights into motion 
+        perception can be particularly valuable for developing realistic driving and motion training programs. Integrating these 
+        findings into existing training simulations for drivers, pilots, or individuals in dynamic professions can enhance the 
+        effectiveness of these programs. By incorporating clear points of reference within the virtual environment, training 
+        simulations can better simulate real-world scenarios, providing a more accurate and valuable learning experience for 
+        participants.
+
+        In the context of human-machine interaction, the study's understanding of motion perception can be integrated into the 
+        development of innovative interfaces and control systems. For example, companies designing VR applications for training 
+        operators of complex machinery or vehicles can utilize these insights to create interfaces that align more closely with 
+        users' natural perceptions of motion, leading to improved usability and skill acquisition. Moreover, the study's adaptability
+         to diverse applications suggests integration possibilities in fields such as healthcare, where VR is increasingly employed 
+         for therapeutic interventions and medical training. By incorporating the principles of efficient rendering and realistic 
+         motion perception, healthcare professionals can benefit from more immersive and effective VR tools, enhancing training 
+         modules, procedural simulations, and patient treatments.
     
-    \chapter{Conclusion}
-        \section{Limitations of the Study}
-        \section{Summary of Key Findings}
+    \section{Conclusion}
+        \subsection{Limitations of the Study}
+    The study's insights into motion perception, while valuable, are constrained by several limitations. Notably, the exclusive focus 
+    on linear motion, with participants navigating solely in a straight line within the custom go-kart, raises concerns about the 
+    applicability of the findings to more complex driving scenarios involving turns and multidirectional movements. The study's emphasis
+    on a swerve drivebase in the custom go-kart may limit its representativeness, as this system may not fully replicate the handling 
+    characteristics of conventional vehicles.
 
-    \chapter{Appendix}
-        \section{Supplementary Materials}
-        \section{References}
+    In conclusion, while offering valuable insights, the study's restrictions in linear motion, virtual environment scenarios, and 
+    participant characteristics suggest that future research endeavors should consider more diverse motions, vehicles, and scenarios 
+    for a comprehensive understanding of motion perception in both real and virtual driving 
 
 \end{document}

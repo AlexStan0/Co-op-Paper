@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.2)  18 JAN 2024 19:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.2)  21 JAN 2024 19:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,20 +7,19 @@ entering extended mode
 (d:/Co-op-Paper/paper.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
-(C:\Users\alexa\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
-Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\alexa\AppData\Local\Programs\MiKTeX\tex/latex/base\bk11.clo
-File: bk11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+(C:\Users\alexa\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\alexa\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count187
-\c@chapter=\count188
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@subparagraph=\count193
-\c@figure=\count194
-\c@table=\count195
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
@@ -201,9 +200,9 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 ) (C:\Users\alexa\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count196
-\Gm@cntv=\count197
-\c@Gm@tempcnt=\count198
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
 \Gm@bindingoffset=\dimen141
 \Gm@wd@mp=\dimen142
 \Gm@odd@mp=\dimen143
@@ -226,89 +225,86 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@orf=\skip58
 ) (C:\Users\alexa\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
-Package tocloft Info: The document has chapter divisions on input line 51.
+Package tocloft Info: The document has section divisions on input line 51.
 \cftparskip=\skip59
 \cftbeforetoctitleskip=\skip60
 \cftaftertoctitleskip=\skip61
 \cftbeforepartskip=\skip62
 \cftpartnumwidth=\skip63
 \cftpartindent=\skip64
-\cftbeforechapskip=\skip65
-\cftchapindent=\skip66
-\cftchapnumwidth=\skip67
-\cftbeforesecskip=\skip68
-\cftsecindent=\skip69
-\cftsecnumwidth=\skip70
-\cftbeforesubsecskip=\skip71
-\cftsubsecindent=\skip72
-\cftsubsecnumwidth=\skip73
-\cftbeforesubsubsecskip=\skip74
-\cftsubsubsecindent=\skip75
-\cftsubsubsecnumwidth=\skip76
-\cftbeforeparaskip=\skip77
-\cftparaindent=\skip78
-\cftparanumwidth=\skip79
-\cftbeforesubparaskip=\skip80
-\cftsubparaindent=\skip81
-\cftsubparanumwidth=\skip82
-\cftbeforeloftitleskip=\skip83
-\cftafterloftitleskip=\skip84
-\cftbeforefigskip=\skip85
-\cftfigindent=\skip86
-\cftfignumwidth=\skip87
-\c@lofdepth=\count199
-\c@lotdepth=\count266
-\cftbeforelottitleskip=\skip88
-\cftafterlottitleskip=\skip89
-\cftbeforetabskip=\skip90
-\cfttabindent=\skip91
-\cfttabnumwidth=\skip92
+\cftbeforesecskip=\skip65
+\cftsecindent=\skip66
+\cftsecnumwidth=\skip67
+\cftbeforesubsecskip=\skip68
+\cftsubsecindent=\skip69
+\cftsubsecnumwidth=\skip70
+\cftbeforesubsubsecskip=\skip71
+\cftsubsubsecindent=\skip72
+\cftsubsubsecnumwidth=\skip73
+\cftbeforeparaskip=\skip74
+\cftparaindent=\skip75
+\cftparanumwidth=\skip76
+\cftbeforesubparaskip=\skip77
+\cftsubparaindent=\skip78
+\cftsubparanumwidth=\skip79
+\cftbeforeloftitleskip=\skip80
+\cftafterloftitleskip=\skip81
+\cftbeforefigskip=\skip82
+\cftfigindent=\skip83
+\cftfignumwidth=\skip84
+\c@lofdepth=\count198
+\c@lotdepth=\count199
+\cftbeforelottitleskip=\skip85
+\cftafterlottitleskip=\skip86
+\cftbeforetabskip=\skip87
+\cfttabindent=\skip88
+\cfttabnumwidth=\skip89
 )
-LaTeX Font Info:    Trying to load font information for T1+fnc on input line 32.
+LaTeX Font Info:    Trying to load font information for T1+fnc on input line 33.
  (C:\Users\alexa\AppData\Local\Programs\MiKTeX\tex/latex/fouriernc\t1fnc.fd
 File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
 )
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 10.18341pt on input line 32.
+(Font)              scaled to size 11.15991pt on input line 33.
  (C:\Users\alexa\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count267
+\l__color_backend_stack_int=\count266
 \l__pdf_internal_box=\box51
 ) (paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 32.
-LaTeX Font Info:    Trying to load font information for FML+fncmi on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 33.
+LaTeX Font Info:    Trying to load font information for FML+fncmi on input line 33.
  (C:\Users\alexa\AppData\Local\Programs\MiKTeX\tex/latex/fouriernc\fmlfncmi.fd
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 32.
-LaTeX Font Info:    Trying to load font information for FMS+fncm on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 33.
+LaTeX Font Info:    Trying to load font information for FMS+fncm on input line 33.
  (C:\Users\alexa\AppData\Local\Programs\MiKTeX\tex/latex/fouriernc\fmsfncm.fd
 File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 32.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 33.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 33.
  (C:\Users\alexa\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -326,15 +322,15 @@ LaTeX Font Info:    ... okay on input line 32.
 * \textheight=700.50687pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
-* \topmargin=-31.8738pt
+* \topmargin=-37.0pt
 * \headheight=12.0pt
-* \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=27.46295pt
-* \marginparwidth=53.0pt
-* \marginparsep=7.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -345,109 +341,150 @@ LaTeX Font Info:    ... okay on input line 32.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 10.18341pt on input line 38.
+(Font)              scaled to size 11.15991pt on input line 39.
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 16.07027pt on input line 51.
+(Font)              scaled to size 19.28804pt on input line 52.
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 13.39188pt on input line 71.
+(Font)              scaled to size 16.07027pt on input line 72.
 
 LaTeX Font Warning: Font shape `T1/fnc/m/scit' undefined
-(Font)              using `T1/fnc/m/it' instead on input line 75.
+(Font)              using `T1/fnc/m/it' instead on input line 76.
 
 LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
-(Font)              scaled to size 10.18341pt on input line 75.
+(Font)              scaled to size 11.15991pt on input line 76.
 [1
-
 
 {C:/Users/alexa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 19.28804pt on input line 85.
+(Font)              scaled to size 23.13821pt on input line 86.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 19.28804pt on input line 85.
+(Font)              scaled to size 23.13821pt on input line 86.
  (paper.toc
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 10.18341pt on input line 1.
+(Font)              scaled to size 11.15991pt on input line 1.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 7.71893pt on input line 1.
+(Font)              scaled to size 8.36993pt on input line 1.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 5.57996pt on input line 1.
+(Font)              scaled to size 6.50995pt on input line 1.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 1.
+(Font)              scaled to size 11.03998pt on input line 1.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 1.
+(Font)              scaled to size 8.27998pt on input line 1.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 1.
+(Font)              scaled to size 6.43999pt on input line 1.
 LaTeX Font Info:    Trying to load font information for FML+fncm on input line 1.
  (C:\Users\alexa\AppData\Local\Programs\MiKTeX\tex/latex/fouriernc\fmlfncm.fd
 File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 1.
+(Font)              scaled to size 11.03998pt on input line 1.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 1.
+(Font)              scaled to size 8.27998pt on input line 1.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 1.
+(Font)              scaled to size 6.43999pt on input line 1.
 )
 \tf@toc=\write3
 \openout3 = `paper.toc'.
 
  [1]
-Chapter 1.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 16.07027pt on input line 89.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 23.13821pt on input line 88.
+(Font)              scaled to size 16.07027pt on input line 89.
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--106
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
 [2
 
-
 ]
-Chapter 2.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 13.39188pt on input line 92.
+(Font)              scaled to size 13.39188pt on input line 118.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 13.39188pt on input line 92.
+(Font)              scaled to size 13.39188pt on input line 118.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
 [3
 
 ]
-Chapter 3.
-[4
 
-]
-Chapter 4.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
 [5
 
 ]
-Chapter 5.
-[6
 
-]
-Chapter 6.
-[7
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-]
-Chapter 7.
-[8
+[6]
 
-]
-Chapter 8.
-[9
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-] (paper.aux)
+[7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8] (paper.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2334 strings out of 474495
- 36475 string characters out of 5743936
+ 2311 strings out of 474495
+ 36191 string characters out of 5743936
  1933460 words of memory out of 5000000
- 24600 multiletter control sequences out of 15000+600000
- 599465 words of font info for 78 fonts, out of 8000000 for 9000
+ 24576 multiletter control sequences out of 15000+600000
+ 600816 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,5n,69p,230b,184s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,11n,69p,418b,209s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on paper.pdf (10 pages, 53427 bytes).
+Output written on paper.pdf (9 pages, 65651 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
+ 48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
